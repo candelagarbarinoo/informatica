@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(255, 215, 225);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+strong {
+    color: rgb(236, 70, 120);       
+}
+header, footer {
+    background-color: rgba(241, 120, 151, 0.849);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.5rem; 
+}
+nav {
+    background-color: rgb(247, 176, 215);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+}
