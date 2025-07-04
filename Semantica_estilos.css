@@ -19,3 +19,14 @@ nav {
     justify-content: center;
     gap: 2rem; 
 }
+main {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    } 
+aside {
+       background-color: #f7d4e5;
+       padding: 1rem;
+       border-left: 4px solid rgb(250, 97, 161);
+} 
+        
