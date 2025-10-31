@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Podrás entrar a esta página?</h1>
+    <button onclick="Verificacion()">Verificar Edad</button>
+
+    <script>
+        function Verificacion() {
+           let edad = prompt("Ingrese su edad:");
+           edad = Number(edad);
+
+         if (edad >= 18) {
+         alert("Acceso permitido");
+         } else {
+         alert("No puedes entrar aquí!!!");
+         } 
+        }
+
+    </script>
+</body>
+</html>
