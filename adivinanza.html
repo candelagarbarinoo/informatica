@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juego</title>
+</head>
+<body>
+    <h2>Juego divertido</h2>
+    <a>Intenta adivinar el número</a><br><br>
+    <button onclick="jugar()">Jugar</button>
+    <script>
+        function jugar(){
+            let numeroSecreto = 7;
+            let intento = Number(prompt("Adiviná el número del 1 al 10:"));
+            if(intento === numeroSecreto){
+                alert("¡Acertaste!");
+            } else {
+                alert("Fallaste. El número era " + numeroSecreto);
+            }
+        }
+    </script>
+</body>
+</html>
